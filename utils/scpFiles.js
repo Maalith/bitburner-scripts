@@ -1,3 +1,4 @@
+/** @param {NS} ns */
 export async function main(ns) {
   const server = ns.args[0]
   ns.scp('basics/HostHack.js', server, 'home')
