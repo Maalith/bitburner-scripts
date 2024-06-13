@@ -1,3 +1,4 @@
+/** @param {NS} ns */
 const findPath = (ns, target, serverName, serverList, ignore, isFound) => {
 	ignore.push(serverName);
 	let scanResults = ns.scan(serverName);
